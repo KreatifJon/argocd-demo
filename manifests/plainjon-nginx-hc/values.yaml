@@ -3,7 +3,7 @@ replicaCount: 2
 image:
   registry: docker.io
   repository: bitnami/nginx
-  tag: 1.27.3  # or try a known working tag like latest or 1.27.2 if 1.27.3 fails
+  tag: 1.27.3-debian-12-r0
 
 service:
   type: ClusterIP
